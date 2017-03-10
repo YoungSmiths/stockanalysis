@@ -2130,3 +2130,377 @@ com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instanc
 2017-03-10 10:20:27:INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
 2017-03-10 10:20:27:INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
 2017-03-10 10:20:27:INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2017-03-10 01:13:37:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:13:37:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:13:37:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:13:38:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 01:13:38:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 01:13:38:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 01:13:38:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 01:13:38:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 01:13:38:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 01:13:38:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 01:13:38:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 01:13:38:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 01:13:38:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 01:13:38:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 01:13:38:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f133a155 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@234a46ea [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eob14aj1wzjs|5c51c1df, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c474c55a [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eob14aj1wzjs|1c42e68a, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eob14aj1wzjs|44d37df9, numHelperThreads -> 3 ]
+2017-03-10 01:13:39:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 01:15:10:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:10:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:10:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:10:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 01:15:10:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 01:15:10:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 01:15:10:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 01:15:10:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 01:15:10:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 01:15:10:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 01:15:10:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 01:15:10:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 01:15:10:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 01:15:10:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 01:15:11:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f12713fa [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@495115c [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eod090xz8btj|2c0328bf, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@25b45b5b [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eod090xz8btj|75d5552b, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eod090xz8btj|e360af7, numHelperThreads -> 3 ]
+2017-03-10 01:15:11:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 01:15:11:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:11:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:11:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:11:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 01:15:11:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 01:15:11:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 01:15:11:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 01:15:11:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 01:15:11:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8773f732 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@72d5ef08 [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eod090xz8btj|593e73dd, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@6b3e9985 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eod090xz8btj|599545b6, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eod090xz8btj|12329908, numHelperThreads -> 3 ]
+2017-03-10 01:15:11:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 01:15:20:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:20:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:20:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:21:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 01:15:21:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 01:15:21:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 01:15:21:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 01:15:21:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 01:15:21:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 01:15:21:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 01:15:21:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 01:15:21:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 01:15:21:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 01:15:21:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 01:15:21:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@1f2a39a6 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@64e32141 [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eod8jy1605962|2f4f33b4, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@55cef7ab [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eod8jy1605962|504f4c0b, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eod8jy1605962|2aba2843, numHelperThreads -> 3 ]
+2017-03-10 01:15:22:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 01:15:56:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:56:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:56:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 01:15:56:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 01:15:57:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 01:15:57:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 01:15:57:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 01:15:57:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 01:15:57:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 01:15:57:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 01:15:57:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 01:15:57:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 01:15:57:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 01:15:57:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 01:15:57:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@ef0ef615 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@2ef4c042 [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eoe0a11j32z0b|11e55ad0, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@9f8c68f9 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eoe0a11j32z0b|576f4a2d, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eoe0a11j32z0b|67b98544, numHelperThreads -> 3 ]
+2017-03-10 01:15:58:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 02:22:14:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:14:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:14:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:14:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 02:22:14:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 02:22:14:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 02:22:14:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 02:22:15:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 02:22:15:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 02:22:15:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 02:22:15:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 02:22:15:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 02:22:15:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 02:22:15:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 02:22:15:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2aef7f87 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@16df92d5 [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eqr9iao09dfm|79777070, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@802f358 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eqr9iao09dfm|3c6a88c9, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eqr9iao09dfm|5334f6e8, numHelperThreads -> 3 ]
+2017-03-10 02:22:15:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 02:22:35:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:35:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:35:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:35:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 02:22:35:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 02:22:35:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 02:22:35:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 02:22:36:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 02:22:36:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 02:22:36:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 02:22:36:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 02:22:36:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 02:22:36:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 02:22:36:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 02:22:36:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d6d2cb48 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@fff5f00e [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eqrpsq1hih9rp|12372ff3, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@886f2a03 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eqrpsq1hih9rp|438bf152, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eqrpsq1hih9rp|2a8bf658, numHelperThreads -> 3 ]
+2017-03-10 02:22:36:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 02:22:57:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:57:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:57:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:22:57:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 02:22:57:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 02:22:57:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 02:22:57:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 02:22:57:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 02:22:57:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 02:22:57:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 02:22:57:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 02:22:57:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 02:22:57:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 02:22:58:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 02:22:58:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@71d774d8 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9afa999e [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1eqs6hcnd2fns|12372ff3, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@2373d393 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1eqs6hcnd2fns|438bf152, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1eqs6hcnd2fns|2a8bf658, numHelperThreads -> 3 ]
+2017-03-10 02:22:58:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 02:39:08:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:39:08:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:39:08:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 02:39:08:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 02:39:08:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 02:39:08:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 02:39:08:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 02:39:08:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 02:39:08:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 02:39:08:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 02:39:08:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 02:39:08:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 02:39:08:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 02:39:09:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 02:39:09:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@404578e8 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@cc8dc9af [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1erczosv37sk6|71f20640, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7aa989c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1erczosv37sk6|12dabc51, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1erczosv37sk6|2a1fc460, numHelperThreads -> 3 ]
+2017-03-10 02:39:09:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 03:33:46:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - toFormatJson error
+com.fasterxml.jackson.databind.JsonMappingException: No serializer found for class cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) )
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:59)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:26)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:114)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:800)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:676)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toFormatJson(JsonUtils.java:75)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:26)
+2017-03-10 03:33:57:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - toFormatJson error
+com.fasterxml.jackson.databind.JsonMappingException: No serializer found for class cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) )
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:59)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:26)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:114)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:800)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:676)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toFormatJson(JsonUtils.java:75)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:26)
+2017-03-10 03:41:41:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - toFormatJson error
+com.fasterxml.jackson.databind.JsonMappingException: No serializer found for class cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) )
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:59)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:26)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:114)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:800)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:676)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toFormatJson(JsonUtils.java:75)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:26)
+2017-03-10 03:43:20:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - toFormatJson error
+com.fasterxml.jackson.databind.JsonMappingException: No serializer found for class cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) )
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:59)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:26)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:114)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:800)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:676)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toFormatJson(JsonUtils.java:75)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:26)
+2017-03-10 03:50:34:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - toFormatJson error
+com.fasterxml.jackson.databind.JsonMappingException: No serializer found for class cn.dev.youngsmith.stockanalysis.util.Pair and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) ) (through reference chain: cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject["list"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:59)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:26)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:100)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:21)
+	at com.fasterxml.jackson.databind.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:183)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:505)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:639)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:152)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:114)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:800)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:676)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toFormatJson(JsonUtils.java:75)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:26)
+2017-03-10 03:51:56:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - toFormatJson error
+com.fasterxml.jackson.databind.JsonMappingException: No serializer found for class cn.dev.youngsmith.stockanalysis.util.Pair and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) ) (through reference chain: cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject["list"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:59)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:26)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:100)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:21)
+	at com.fasterxml.jackson.databind.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:183)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:505)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:639)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:152)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:114)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:800)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:676)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toFormatJson(JsonUtils.java:75)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:26)
+2017-03-10 03:52:30:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - toFormatJson error
+com.fasterxml.jackson.databind.JsonMappingException: No serializer found for class cn.dev.youngsmith.stockanalysis.util.Pair and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) ) (through reference chain: cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject["list"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:59)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:26)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:100)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:21)
+	at com.fasterxml.jackson.databind.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:183)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:505)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:639)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:152)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:114)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:800)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:676)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toFormatJson(JsonUtils.java:75)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:26)
+2017-03-10 03:57:33:ERROR main cn.dev.youngsmith.stockanalysis.util.JsonUtils - to Object error
+com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of cn.dev.youngsmith.stockanalysis.bean.shsz.SHSZInstanceJsonObject out of START_ARRAY token
+ at [Source: [{"data":{"buyFive":"13100","buyFivePri":"17.020","buyFour":"20000","buyFourPri":"17.030","buyOne":"6500","buyOnePri":"17.060","buyThree":"11600","buyThreePri":"17.040","buyTwo":"20700","buyTwoPri":"17.050","competitivePri":"17.060","date":"2017-03-10","gid":"sh601311","increPer":"1.85","increase":"0.310","name":"骆驼股份","nowPri":"17.060","reservePri":"17.070","sellFive":"7100","sellFivePri":"17.110","sellFour":"91024","sellFourPri":"17.100","sellOne":"18482","sellOnePri":"17.070","sellThree":"68600","sellThreePri":"17.090","sellTwo":"45700","sellTwoPri":"17.080","time":"15:00:00","todayMax":"17.090","todayMin":"16.680","todayStartPri":"16.850","traAmount":"133358094.000","traNumber":"78820","yestodEndPri":"16.750"},"dapandata":{"dot":"17.060","name":"骆驼股份","nowPic":"0.310","rate":"1.85","traAmount":"13336","traNumber":"78820"},"gopicture":{"minurl":"http://image.sinajs.cn/newchart/min/n/sh601311.gif","dayurl":"http://image.sinajs.cn/newchart/daily/n/sh601311.gif","weekurl":"http://image.sinajs.cn/newchart/weekly/n/sh601311.gif","monthurl":"http://image.sinajs.cn/newchart/monthly/n/sh601311.gif"}}]; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:164)
+	at com.fasterxml.jackson.databind.DeserializationContext.mappingException(DeserializationContext.java:749)
+	at com.fasterxml.jackson.databind.DeserializationContext.mappingException(DeserializationContext.java:745)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromArray(BeanDeserializerBase.java:1210)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:151)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:126)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3051)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2146)
+	at cn.dev.youngsmith.stockanalysis.util.JsonUtils.toObject(JsonUtils.java:132)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.parserSHSZInstance(StockParser.java:15)
+	at cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser.main(StockParser.java:24)
+2017-03-10 04:27:55:ERROR main cn.dev.youngsmith.stockanalysis.juhe.catcher.Catcher - this is a error: 
+cn.dev.youngsmith.stockanalysis.exception.StockException
+	at cn.dev.youngsmith.stockanalysis.juhe.catcher.Catcher.getStockSHSZ(Catcher.java:58)
+	at cn.dev.youngsmith.stockanalysis.juhe.catcher.CatcherTest.testGetStockSHSZ(CatcherTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-03-10 04:27:55:ERROR main cn.dev.youngsmith.stockanalysis.juhe.catcher.Catcher - this is a error: 
+cn.dev.youngsmith.stockanalysis.exception.StockException
+	at cn.dev.youngsmith.stockanalysis.juhe.catcher.Catcher.getStockHK(Catcher.java:88)
+	at cn.dev.youngsmith.stockanalysis.juhe.catcher.CatcherTest.testGetStockHK(CatcherTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-03-10 04:27:55:ERROR main cn.dev.youngsmith.stockanalysis.juhe.catcher.Catcher - this is a error: 
+cn.dev.youngsmith.stockanalysis.exception.StockException
+	at cn.dev.youngsmith.stockanalysis.juhe.catcher.Catcher.getStockUSA(Catcher.java:117)
+	at cn.dev.youngsmith.stockanalysis.juhe.catcher.CatcherTest.testGetStockUSA(CatcherTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-03-10 04:39:04:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 04:39:04:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 04:39:04:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 04:39:04:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 04:39:05:INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-10 04:39:05:INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-03-10 04:39:05:INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-03-10 04:39:05:INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-10 04:39:05:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 04:39:05:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 04:39:05:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 04:39:05:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 04:39:05:INFO MLog-Init-Reporter com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2017-03-10 04:39:05:INFO main com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-03-10 04:39:05:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@763fad8a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7f5134ba [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|511a6b86, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@a1627bbc [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|557c0019, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|309ab55c, numHelperThreads -> 3 ]
+2017-03-10 04:39:05:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-10 04:39:06:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 04:39:06:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 04:39:06:WARN main org.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-10 04:39:06:INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: stockanalysis
+	...]
+2017-03-10 04:39:06:INFO main org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-03-10 04:39:06:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8
+2017-03-10 04:39:06:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000046: Connection properties: {user=root, password=****, shutdown=true}
+2017-03-10 04:39:06:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
+2017-03-10 04:39:06:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@57ef6cda [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@84d3ed9f [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|3021ef0d, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@5c1c3629 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|f08f2a, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|9e2d2, numHelperThreads -> 3 ]
+2017-03-10 04:39:06:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect

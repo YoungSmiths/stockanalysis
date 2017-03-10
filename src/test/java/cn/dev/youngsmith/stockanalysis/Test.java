@@ -14,9 +14,10 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 
-import cn.dev.youngsmith.stockanalysis.bean.StockInstantInfo;
-import cn.dev.youngsmith.stockanalysis.catcher.Catcher;
-import cn.dev.youngsmith.stockanalysis.parser.StockParser;
+import cn.dev.youngsmith.stockanalysis.juhe.bean.shsz.SHSZInstantInfo;
+import cn.dev.youngsmith.stockanalysis.juhe.bean.shsz.all.SHSZAllJson;
+import cn.dev.youngsmith.stockanalysis.juhe.catcher.Catcher;
+import cn.dev.youngsmith.stockanalysis.juhe.parser.StockParser;
 
 public class Test {
 
@@ -38,22 +39,25 @@ public class Test {
 
 	@org.junit.Test
 	public void test() {
-		EntityManagerFactory factory = Persistence.createEntityManagerFactory("stockanalysis");
-
-		factory.close();
+//		EntityManagerFactory factory = Persistence.createEntityManagerFactory("stockanalysis");
+//
+//		factory.close();
 	}
 
 	@org.junit.Test
 	public void test1() throws Exception {
-		EntityManagerFactory factory = Persistence.createEntityManagerFactory("stockanalysis");
-		EntityManager em = factory.createEntityManager();
-		em.getTransaction().begin();
-		// StockInstantInfo entity = new StockInstantInfo();
-		StockInstantInfo instantInfo = StockParser.parser(Catcher.getStockSH());
-		em.persist(instantInfo);
-		em.getTransaction().commit();
-		em.close();
-		factory.close();
+//		EntityManagerFactory factory = Persistence.createEntityManagerFactory("stockanalysis");
+//		EntityManager em = factory.createEntityManager();
+//		em.getTransaction().begin();
+//		// StockInstantInfo entity = new StockInstantInfo();
+//		SHSZAllJson instantInfo = StockParser.parser(Catcher.getStockSHSZ(null));
+//		em.persist(instantInfo);
+//		em.getTransaction().commit();
+//		em.close();
+//		factory.close();
 	}
+	
+	
+	
 
 }
