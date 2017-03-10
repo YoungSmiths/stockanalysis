@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: cn.dev.youngsmith.stockanalysis.CatcherTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest2()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest2(CatcherTest.java:41)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 19 more
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest5()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest5(CatcherTest.java:56)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testGetStockSH()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testGetStockSH(CatcherTest.java:36)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest7()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest7(CatcherTest.java:66)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest3()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest3(CatcherTest.java:46)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest4()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest4(CatcherTest.java:51)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest6()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testGetRequest6(CatcherTest.java:61)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testNet()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testNet(CatcherTest.java:71)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testMain()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testMain(CatcherTest.java:31)
+
+cn.dev.youngsmith.stockanalysis.CatcherTest.testUrlencode()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at cn.dev.youngsmith.stockanalysis.CatcherTest.testUrlencode(CatcherTest.java:76)
+

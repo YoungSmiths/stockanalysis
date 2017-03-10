@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ 
+ <web-app xmlns="http://java.sun.com/xml/ns/javaee"  
+		  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"  
+          version="2.5"> 
+    <display-name>Archetype Created Web Application</display-name>
+
+	<!-- <listener> <listener-class>org.jboss.weld.environment.servlet.Listener</listener-class> 
+		</listener> -->
+    <!-- Auto scan REST service -->
+    <!-- Resteasy -->
+	<!-- <listener> <listener-class>org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap</listener-class> 
+		</listener> -->
+	<!-- <servlet> <servlet-name>resteasy-servlet</servlet-name> <servlet-class> 
+		org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher </servlet-class> 
+		</servlet> -->
+	<!-- <context-param> <param-name>resteasy.injector.factory</param-name> 
+		<param-value>org.jboss.resteasy.cdi.CdiInjectorFactory</param-value> </context-param> 
+		<context-param> <param-name>resteasy.scan</param-name> <param-value>true</param-value> 
+		</context-param> -->
+
+	<!-- <servlet-mapping> <servlet-name>resteasy-servlet</servlet-name> <url-pattern>/user/*</url-pattern> 
+		</servlet-mapping> -->
+
+</web-app>
