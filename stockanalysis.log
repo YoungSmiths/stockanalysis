@@ -2504,3 +2504,238 @@ cn.dev.youngsmith.stockanalysis.exception.StockException
 2017-03-10 04:39:06:INFO main org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH000006: Autocommit mode: false
 2017-03-10 04:39:06:INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@57ef6cda [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@84d3ed9f [ acquireIncrement -> 4, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|3021ef0d, idleConnectionTestPeriod -> 600, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@5c1c3629 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|f08f2a, jdbcUrl -> jdbc:mysql://localhost:3306/stockanalysisdb?useUnicode=true&characterEncodeing=utf-8, properties -> {user=******, password=******, shutdown=true} ], preferredTestQuery -> select 1;, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge1kd9m1evn8jm1v9ynk5|9e2d2, numHelperThreads -> 3 ]
 2017-03-10 04:39:06:INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-03-11 12:15:43:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 12:15:43:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 12:15:43:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 12:15:43:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 12:15:43:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 12:15:43:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 12:15:43:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 12:15:43:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 12:15:43:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 12:15:43:ERROR DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.ErrorLogger - An error occured instantiating job to be executed. job= 'group1.myJob'
+org.quartz.SchedulerException: Problem instantiating class 'cn.dev.youngsmith.stockanalysis.task.Task$HelloJob' [See nested exception: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob]
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:58)
+	at org.quartz.simpl.PropertySettingJobFactory.newJob(PropertySettingJobFactory.java:69)
+	at org.quartz.core.JobRunShell.initialize(JobRunShell.java:127)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:375)
+Caused by: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob
+	at java.lang.Class.newInstance(Class.java:368)
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:56)
+	... 3 more
+2017-03-11 12:15:43:INFO DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.RAMJobStore - All triggers of Job group1.myJob set to ERROR state.
+2017-03-11 12:17:55:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 12:17:55:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 12:17:55:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 12:17:55:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 12:17:55:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 12:17:55:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 12:17:55:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 12:17:55:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 12:17:55:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 12:19:35:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 12:19:35:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 12:19:35:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 12:19:35:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 12:19:35:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 12:19:35:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 12:19:35:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 12:19:35:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 12:19:35:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 12:19:35:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-03-11 12:19:35:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-03-11 12:19:35:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-03-11 01:57:19:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 01:57:19:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 01:57:19:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 01:57:19:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 01:57:19:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 01:57:19:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 01:57:19:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 01:57:19:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 01:57:19:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 01:57:19:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-03-11 01:57:19:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-03-11 01:57:19:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-03-11 01:59:17:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 01:59:17:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 01:59:17:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 01:59:17:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 01:59:17:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 01:59:17:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 01:59:17:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 01:59:17:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 01:59:17:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 01:59:17:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-03-11 01:59:17:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-03-11 01:59:17:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-03-11 01:59:33:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 01:59:33:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 01:59:33:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 01:59:33:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 01:59:33:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 01:59:33:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 01:59:33:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 01:59:33:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 01:59:33:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 01:59:33:ERROR DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.ErrorLogger - An error occured instantiating job to be executed. job= 'group1.myJob'
+org.quartz.SchedulerException: Problem instantiating class 'cn.dev.youngsmith.stockanalysis.task.Task$HelloJob' [See nested exception: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob]
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:58)
+	at org.quartz.simpl.PropertySettingJobFactory.newJob(PropertySettingJobFactory.java:69)
+	at org.quartz.core.JobRunShell.initialize(JobRunShell.java:127)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:375)
+Caused by: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob
+	at java.lang.Class.newInstance(Class.java:368)
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:56)
+	... 3 more
+2017-03-11 01:59:33:INFO DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.RAMJobStore - All triggers of Job group1.myJob set to ERROR state.
+2017-03-11 02:00:42:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 02:00:42:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 02:00:42:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 02:00:42:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 02:00:42:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 02:00:42:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 02:00:42:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 02:00:42:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 02:00:42:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 02:01:04:ERROR DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.ErrorLogger - An error occured instantiating job to be executed. job= 'group1.myJob'
+org.quartz.SchedulerException: Problem instantiating class 'cn.dev.youngsmith.stockanalysis.task.Task$HelloJob' [See nested exception: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob]
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:58)
+	at org.quartz.simpl.PropertySettingJobFactory.newJob(PropertySettingJobFactory.java:69)
+	at org.quartz.core.JobRunShell.initialize(JobRunShell.java:127)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:375)
+Caused by: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob
+	at java.lang.Class.newInstance(Class.java:368)
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:56)
+	... 3 more
+2017-03-11 02:01:04:INFO DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.RAMJobStore - All triggers of Job group1.myJob set to ERROR state.
+2017-03-11 02:10:20:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 02:10:20:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 02:10:20:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 02:10:20:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 02:10:20:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 02:10:20:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 02:10:20:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 02:10:20:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 02:10:20:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 02:10:20:ERROR DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.ErrorLogger - An error occured instantiating job to be executed. job= 'group1.myJob'
+org.quartz.SchedulerException: Problem instantiating class 'cn.dev.youngsmith.stockanalysis.task.Task$HelloJob' [See nested exception: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob]
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:58)
+	at org.quartz.simpl.PropertySettingJobFactory.newJob(PropertySettingJobFactory.java:69)
+	at org.quartz.core.JobRunShell.initialize(JobRunShell.java:127)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:375)
+Caused by: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob
+	at java.lang.Class.newInstance(Class.java:368)
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:56)
+	... 3 more
+2017-03-11 02:10:20:INFO DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.RAMJobStore - All triggers of Job group1.myJob set to ERROR state.
+2017-03-11 02:10:34:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 02:10:34:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 02:10:34:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 02:10:34:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 02:10:34:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 02:10:34:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 02:10:34:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 02:10:34:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 02:10:34:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 02:10:34:ERROR DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.ErrorLogger - An error occured instantiating job to be executed. job= 'group1.myJob'
+org.quartz.SchedulerException: Problem instantiating class 'cn.dev.youngsmith.stockanalysis.task.Task$HelloJob' [See nested exception: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob]
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:58)
+	at org.quartz.simpl.PropertySettingJobFactory.newJob(PropertySettingJobFactory.java:69)
+	at org.quartz.core.JobRunShell.initialize(JobRunShell.java:127)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:375)
+Caused by: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob
+	at java.lang.Class.newInstance(Class.java:368)
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:56)
+	... 3 more
+2017-03-11 02:10:34:INFO DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.RAMJobStore - All triggers of Job group1.myJob set to ERROR state.
+2017-03-11 02:11:36:INFO main org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-03-11 02:11:36:INFO main org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2017-03-11 02:11:36:INFO main org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-03-11 02:11:36:INFO main org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-03-11 02:11:36:INFO main org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-03-11 02:11:36:INFO main org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-03-11 02:11:36:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-03-11 02:11:36:INFO main org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-03-11 02:11:36:INFO main org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-03-11 02:11:36:ERROR DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.core.ErrorLogger - An error occured instantiating job to be executed. job= 'group1.myJob'
+org.quartz.SchedulerException: Problem instantiating class 'cn.dev.youngsmith.stockanalysis.task.Task$HelloJob' [See nested exception: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob]
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:58)
+	at org.quartz.simpl.PropertySettingJobFactory.newJob(PropertySettingJobFactory.java:69)
+	at org.quartz.core.JobRunShell.initialize(JobRunShell.java:127)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:375)
+Caused by: java.lang.InstantiationException: cn.dev.youngsmith.stockanalysis.task.Task$HelloJob
+	at java.lang.Class.newInstance(Class.java:368)
+	at org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:56)
+	... 3 more
+2017-03-11 02:11:36:INFO DefaultQuartzScheduler_QuartzSchedulerThread org.quartz.simpl.RAMJobStore - All triggers of Job group1.myJob set to ERROR state.
