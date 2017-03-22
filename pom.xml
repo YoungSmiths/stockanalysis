@@ -18,8 +18,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
+			<version>4.10</version>
 		</dependency>
 		<!-- core library -->
 		<dependency>
@@ -174,6 +173,17 @@
 			<version>2.4</version>
 			<classifier>jdk15</classifier>
 		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz-jobs</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>apiMgmt</finalName>
@@ -189,5 +199,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<directory>C:\Users\sy\workspace-javaEE\stockanalysis_target</directory>
 	</build>
 </project>
