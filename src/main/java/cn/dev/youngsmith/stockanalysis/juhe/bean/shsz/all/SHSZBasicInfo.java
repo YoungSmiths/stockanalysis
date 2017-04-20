@@ -2,24 +2,18 @@ package cn.dev.youngsmith.stockanalysis.juhe.bean.shsz.all;
 
 import java.io.Serializable;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.xml.bind.annotation.XmlRootElement;
-
 /**
  * @ClassName: SHSZAllJson
  * @Description: TODO 上证深圳所有股票model,单个股票信息
  * @author shiy
  * @date 2017年3月10日 下午2:45:14
  */
-@XmlRootElement
-@Entity
+// @XmlRootElement
+// @Entity
 public class SHSZBasicInfo implements Serializable {
 	private static final long serialVersionUID = -5245565776292348024L;
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	// @Id
+	// @GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String symbol;
 	private String name;
@@ -36,6 +30,18 @@ public class SHSZBasicInfo implements Serializable {
 	private int amount;
 	private String code;
 	private String ticktime;
+
+	public SHSZBasicInfo() {
+
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public String getSymbol() {
 		return symbol;

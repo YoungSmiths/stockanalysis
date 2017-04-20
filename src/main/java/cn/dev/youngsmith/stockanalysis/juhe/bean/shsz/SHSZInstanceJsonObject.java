@@ -1,31 +1,45 @@
 package cn.dev.youngsmith.stockanalysis.juhe.bean.shsz;
 
 import java.io.Serializable;
-import java.util.HashMap;
-import java.util.Map;
 
 public class SHSZInstanceJsonObject implements Serializable {
 	private static final long serialVersionUID = -743256943932982709L;
-	Map<String, Object> map = new HashMap<String, Object>();
 
-	public Map<String, Object> getMap() {
-		return map;
+	private SHSZInstantInfo data = new SHSZInstantInfo();
+	private DaPanData dapandata = new DaPanData();
+	private GoPicture gopicture = new GoPicture();
+
+	public SHSZInstantInfo getData() {
+		return data;
 	}
 
-	public void setMap(Map<String, Object> map) {
-		this.map = map;
+	public void setData(SHSZInstantInfo data) {
+		this.data = data;
 	}
 
-	public SHSZInstanceJsonObject() {
-		// TODO Auto-generated constructor stub
-		map.put("data", new SHSZInstantInfo());
-		map.put("dapandata", new DaPanData());
-		map.put("gopicture", new GoPicture());
+	public DaPanData getDapandata() {
+		return dapandata;
+	}
+
+	public void setDapandata(DaPanData dapandata) {
+		this.dapandata = dapandata;
+	}
+
+	public GoPicture getGopicture() {
+		return gopicture;
+	}
+
+	public void setGopicture(GoPicture gopicture) {
+		this.gopicture = gopicture;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 
 	@Override
 	public String toString() {
-		return "SHSZInstanceJsonObject [map=" + map + "]";
+		return "SHSZInstanceJsonObject [data=" + data + ", dapandata=" + dapandata + ", gopicture=" + gopicture + "]";
 	}
 
 }

@@ -28,8 +28,7 @@ public class StockParser {
 	public static SHSZInstanceJsonObject parserSHSZInstance(String json) {
 
 		try {
-			json = json.substring(1, json.length() - 1);
-			json = "{\"map\":" + json + "}";
+			json = json.replace("[", "").replace("]", "");
 			return JsonUtils.toObject(json, SHSZInstanceJsonObject.class);
 		} catch (StockException e) {
 			LOGGER.error("this is the error:", e, json);

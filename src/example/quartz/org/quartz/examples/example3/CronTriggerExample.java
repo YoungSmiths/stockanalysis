@@ -64,19 +64,19 @@ public class CronTriggerExample {
     log.info(job.getKey() + " has been scheduled to run at: " + ft + " and repeat based on expression: "
              + trigger.getCronExpression());
 
-    // job 2 will run every other minute (at 15 seconds past the minute)
-    job = newJob(SimpleJob.class).withIdentity("job2", "group1").build();
-
-    trigger = newTrigger().withIdentity("trigger2", "group1").withSchedule(cronSchedule("15 0/2 * * * ?")).build();
-
-    ft = sched.scheduleJob(job, trigger);
-    log.info(job.getKey() + " has been scheduled to run at: " + ft + " and repeat based on expression: "
-             + trigger.getCronExpression());
-
-    // job 3 will run every other minute but only between 8am and 5pm
+//    // job 2 will run every other minute (at 15 seconds past the minute)
+//    job = newJob(SimpleJob.class).withIdentity("job2", "group1").build();
+//
+//    trigger = newTrigger().withIdentity("trigger2", "group1").withSchedule(cronSchedule("15 0/2 * * * ?")).build();
+//
+//    ft = sched.scheduleJob(job, trigger);
+//    log.info(job.getKey() + " has been scheduled to run at: " + ft + " and repeat based on expression: "
+//             + trigger.getCronExpression());
+//
+//    // job 3 will run every other minute but only between 8am and 5pm
     job = newJob(SimpleJob.class).withIdentity("job3", "group1").build();
 
-    trigger = newTrigger().withIdentity("trigger3", "group1").withSchedule(cronSchedule("0 0/2 8-17 * * ?")).build();
+    trigger = newTrigger().withIdentity("trigger3", "group1").withSchedule(cronSchedule("*/2 0 8-17 * * ?")).build();
 
     ft = sched.scheduleJob(job, trigger);
     log.info(job.getKey() + " has been scheduled to run at: " + ft + " and repeat based on expression: "

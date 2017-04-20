@@ -16,12 +16,12 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author shiy
  * @date 2017年3月10日 下午2:45:14
  */
-@XmlRootElement
-@Entity
+//@XmlRootElement
+//@Entity
 public class SHSZAllJson implements Serializable {
 	private static final long serialVersionUID = 3640355777360442314L;
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+//	@Id
+//	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private int totalCount;
 	private int page;
