@@ -6,6 +6,9 @@ import static org.quartz.TriggerBuilder.*;
 
 import java.util.Date;
 
+import javax.inject.Inject;
+import javax.persistence.EntityManager;
+
 import org.quartz.Job;
 import org.quartz.JobDetail;
 import org.quartz.JobExecutionContext;
@@ -16,6 +19,17 @@ import org.quartz.Trigger;
 import org.quartz.impl.triggers.CronTriggerImpl;
 
 public class Task {
+	protected EntityManager entityManager;
+
+	@Inject
+	public void setEntityManager(EntityManager entityManager) {
+		this.entityManager = entityManager;
+	}
+
+	public EntityManager getEntityManager() {
+		return entityManager;
+	}
+
 	public static void main(String[] args) throws Exception {
 		SchedulerFactory schedFact = new org.quartz.impl.StdSchedulerFactory();
 

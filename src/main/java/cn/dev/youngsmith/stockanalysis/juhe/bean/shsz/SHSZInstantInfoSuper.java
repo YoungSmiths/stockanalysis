@@ -3,35 +3,9 @@ package cn.dev.youngsmith.stockanalysis.juhe.bean.shsz;
 import java.io.Serializable;
 import java.util.Date;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
-import javax.xml.bind.annotation.XmlRootElement;
+public class SHSZInstantInfoSuper implements Serializable {
 
-/**
- * @ClassName: StockInstantInfo
- * @Description: TODO 即时查询的基本信息
- * @author shiy
- * @date 2017年3月10日 下午2:48:37
- */
-@Entity
-@XmlRootElement
-public class SHSZInstantInfo extends SHSZInstantInfoSuper implements Serializable {
-	private static final long serialVersionUID = -6710876614390230132L;
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	int id;
-	@OneToOne
-	@JoinColumn(name = "goPicture_ID")
-	private GoPicture goPicture;
-
-	@OneToOne
-	@JoinColumn(name = "daPanData_ID")
-	private DaPanData daPanData;
+	private static final long serialVersionUID = -7306009492135784773L;
 	/**
 	 * 股票编码
 	 */
@@ -113,8 +87,8 @@ public class SHSZInstantInfo extends SHSZInstantInfoSuper implements Serializabl
 	private int sellFive;
 	private double sellFivePri;
 
-	public SHSZInstantInfo() {
-
+	public SHSZInstantInfoSuper() {
+		super();
 	}
 
 	public String getGid() {
@@ -397,33 +371,19 @@ public class SHSZInstantInfo extends SHSZInstantInfoSuper implements Serializabl
 		this.sellFivePri = sellFivePri;
 	}
 
-	public GoPicture getGoPicture() {
-		return goPicture;
-	}
-
-	public void setGoPicture(GoPicture goPicture) {
-		this.goPicture = goPicture;
-	}
-
-	public DaPanData getDaPanData() {
-		return daPanData;
-	}
-
-	public void setDaPanData(DaPanData daPanData) {
-		this.daPanData = daPanData;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	@Override
 	public String toString() {
-		return "SHSZInstantInfo [id=" + id + ", goPicture=" + goPicture + ", daPanData=" + daPanData + "]";
+		return "SHSZInstantInfoSuper [gid=" + gid + ", name=" + name + ", reservePri=" + reservePri
+				+ ", competitivePri=" + competitivePri + ", todayStartPri=" + todayStartPri + ", yestodEndPri="
+				+ yestodEndPri + ", increPer=" + increPer + ", increase=" + increase + ", nowPri=" + nowPri
+				+ ", todayMax=" + todayMax + ", todayMin=" + todayMin + ", traNumber=" + traNumber + ", traAmount="
+				+ traAmount + ", date=" + date + ", time=" + time + ", buyOne=" + buyOne + ", buyOnePri=" + buyOnePri
+				+ ", buyTwo=" + buyTwo + ", buyTwoPri=" + buyTwoPri + ", buyThree=" + buyThree + ", buyThreePri="
+				+ buyThreePri + ", buyFour=" + buyFour + ", buyFourPri=" + buyFourPri + ", buyFive=" + buyFive
+				+ ", buyFivePri=" + buyFivePri + ", sellOne=" + sellOne + ", sellOnePri=" + sellOnePri + ", sellTwo="
+				+ sellTwo + ", sellTwoPri=" + sellTwoPri + ", sellThree=" + sellThree + ", sellThreePri=" + sellThreePri
+				+ ", sellFour=" + sellFour + ", sellFourPri=" + sellFourPri + ", sellFive=" + sellFive
+				+ ", sellFivePri=" + sellFivePri + "]";
 	}
 
 }

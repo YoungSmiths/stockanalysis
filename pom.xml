@@ -5,7 +5,7 @@
 	<groupId>cn.dev.youngsmith</groupId>
 	<artifactId>stockanalysis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>stockanalysis</name>
 	<url>http://maven.apache.org</url>
@@ -186,7 +186,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>apiMgmt</finalName>
+		<finalName>stockanalysis</finalName>
 
 		<plugins>
 			<plugin>
@@ -199,6 +199,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<directory>C:\Users\sy\workspace-javaEE\stockanalysis_target</directory>
+		<!-- <directory>C:\Users\sy\workspace-javaEE\stockanalysis_target</directory> -->
 	</build>
 </project>

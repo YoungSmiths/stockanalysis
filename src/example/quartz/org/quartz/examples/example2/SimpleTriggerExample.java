@@ -43,7 +43,7 @@ import java.util.Date;
  */
 public class SimpleTriggerExample {
 
-  public void run() throws Exception {
+	public void run() throws Exception {
     Logger log = LoggerFactory.getLogger(SimpleTriggerExample.class);
 
     log.info("------- Initializing -------------------");
@@ -181,7 +181,7 @@ public class SimpleTriggerExample {
     log.info("------- Waiting five minutes... ------------");
     try {
       // wait five minutes to show jobs
-      Thread.sleep(300L * 1000L);
+      Thread.sleep(3L * 1000L);
       // executing...
     } catch (Exception e) {
       //

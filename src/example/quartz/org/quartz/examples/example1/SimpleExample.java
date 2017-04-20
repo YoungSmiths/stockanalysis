@@ -73,10 +73,10 @@ public class SimpleExample {
 
     // wait long enough so that the scheduler as an opportunity to
     // run the job!
-    log.info("------- Waiting 65 seconds... -------------");
+    log.info("------- Waiting 3 seconds... -------------");
     try {
-      // wait 65 seconds to show job
-      Thread.sleep(65L * 1000L);
+      // wait 3 seconds to show job
+      Thread.sleep(3L * 1000L);
       // executing...
     } catch (Exception e) {
       //
